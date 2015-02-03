@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "OswaldBold";
+    src: url(../fuentes/Oswald/Oswald-Regular.otf);
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	height:100%;
+}
+body{
+	background-color: #b3b3b3;
+	height: 100%;
+	font-family: sans-serif, Arial, helvetica;
+	font-size: 16px;
+	padding-top:30px;
+}
+
+nav{
+	height:30px;
+	background-color:#000;
+	text-align: right;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	z-index: 200;
+	/*padding:5px;*/
+}
+
+nav ul.menu li{
+	display: inline-block;
+	line-height:30px;
+	/*margin-left:20px;*/
+}
+
+nav ul.menu li a{
+	text-decoration: none;
+	padding:0 10px;
+	transition: background-color .4s ease-in;
+	transition: padding .2s ease-in;
+}
+
+nav ul.menu li a:hover,
+nav ul.menu li a:active{
+	/*text-decoration:underline;*/
+	background: #09F;
+	height:30px;
+	padding:10px;
+	color:white;
+}
+
+nav ul.menu a{
+	color:white;
+}
+
+section{
+	min-height:300px;
+	background-color: white;
+	margin: auto;
+	overflow: hidden;
+}
+
+body h2{
+	font-family: "OswaldBold", Arial;
+	font-size: 40px;
+}
+
+body h3{
+	font-family: "OswaldBold", Arial;
+	font-size: 28px;
+}
+
+#wallpaper{
+	/*background: url(../imagenes/fondo1.jpg) no-repeat center center;*/
+	background-image: url(../images/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+}
+
+.habilidad{
+	width: 100%;
+	background: #F1F1F1;
+	border-radius:4px;
+	padding: 2px;
+}
+
+.barra{
+	height:18px;
+	background:#09F;
+	border-radius:4px;
+	transition: background .4s ease-in;
+}
+
+.barra:hover{
+	background:#B1D32B;
+	transition: background .4s ease-in;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.servicio{
+	text-align: justify;
+	padding-right: 10px;
+}
+
+.img-servicio{
+	float:left;
+	margin:7px 15px 0px 0px;
+}
+
+section ul li{
+	margin-left:20px;
+	line-height:26px
+}
+
+#home{
+	background-color: #F5F6F7;
+	min-height:400px;
+}
+
+#home .imagenes{
+	height: 100%;
+	float:left;
+}
+
+#home .flecha{
+	margin-left: 117px;
+	margin-right: 30px;
+}
+
+#introduccion h4{
+	font-family: "OswaldBold", Arial;
+	font-size: 26px;
+	color: #333;
+	text-align: justify;
+}
+
+#foto-perfil{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	display: block;
+}
+
+#servicios{
+	background:#F5F6F7;
+}
+
+#portafolio .proyecto{
+	text-align: center;
+	/*background: black;
+	color:white;*/
+}
+
+#portafolio .proyecto .titulo{
+	font-family: "OswaldBold", Arial;
+	font-size: 22px;
+}
+
+#portafolio .proyecto .imagen{
+	overflow:hidden;
+	cursor: pointer;
+	margin: 4px;
+}
+
+#portafolio .proyecto .imagen img{
+	width:80%;
+	background-color: #CCC;
+	padding:6px;
+	transition: background-color .4s ease-in;
+	border: 1px solid #CCC;
+	/*border:5px solid #CCC;*/
+}
+#portafolio .proyecto .imagen img:hover{
+	background-color: #FFF;
+	border: 1px solid gray;
+}
+
+#portafolio .proyecto .descripcion{
+	width:80%;
+	text-align: left;
+	margin: 10px auto 20px auto;
+}
+
+#portafolio .proyecto .descripcion a{
+	background: #F1F1F1;
+	color: #333;
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin-top:5px;
+	border-radius: 4px;
+	border:1px solid #CCC;
+}
+
+#portafolio .proyecto .descripcion a:hover{
+	text-decoration: underline;
+}
+
+#contacto{
+	background-color: #F1F1F1;
+}
+
+
+form.contacto{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-align: justify;
+}
+
+.contacto input[type="text"],
+.contacto input[type="tel"],
+.contacto input[type="email"], 
+.contacto textarea {
+	display:block;
+	background: #FFF;
+	border:none;
+	padding: 5px 5px 5px 20px;
+	width:100%;
+	margin-bottom: 10px;
+	box-sizing: content-box;
+}
+
+.contacto input[type="text"],
+.contacto input[type="tel"],
+.contacto input[type="email"]{
+	height: 30px;
+}
+
+.contacto .boton{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 4px solid #238F7A;
+	margin-bottom: 20px;
+	background-color: #1ABC9C;
+	color: #FFF;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.separador {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #DDD;
+    margin: 15px 0px 15px 9px;
+    background: none repeat scroll 0% 0% #FFF;
+}
+
+.contacto-col2{
+	margin-left:20px;
+}
+
+.contacto-col2 a{
+	color:#333;
+}
