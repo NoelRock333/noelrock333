@@ -73,6 +73,11 @@ body h3{
 	font-size: 28px;
 }
 
+a:focus {
+	outline:0px !important;
+	-webkit-appearance:none;
+}
+
 #wallpaper{
 	/*background: url(../imagenes/fondo1.jpg) no-repeat center center;*/
 	background-image: url(../images/fondo1.jpg);
