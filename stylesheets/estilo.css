@@ -254,6 +254,11 @@ form.contacto{
 	padding: 10px 20px;
 	text-transform: uppercase;
 	border-radius: 5px;
+ 	-webkit-transition: all 1s; /* Safari */
+	transition: all 1s;
+}
+.contacto .boton:hover{
+	background-color: green;
 }
 
 .separador {
