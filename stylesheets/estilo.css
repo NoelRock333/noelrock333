@@ -27,13 +27,11 @@ nav{
 	right:0;
 	top:0;
 	z-index: 200;
-	/*padding:5px;*/
 }
 
 nav ul.menu li{
 	display: inline-block;
 	line-height:30px;
-	/*margin-left:20px;*/
 }
 
 nav ul.menu li a{
@@ -45,7 +43,6 @@ nav ul.menu li a{
 
 nav ul.menu li a:hover,
 nav ul.menu li a:active{
-	/*text-decoration:underline;*/
 	background: #09F;
 	height:30px;
 	padding:10px;
@@ -79,7 +76,6 @@ a:focus {
 }
 
 #wallpaper{
-	/*background: url(../imagenes/fondo1.jpg) no-repeat center center;*/
 	background-image: url(../images/fondo1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -164,8 +160,6 @@ section ul li{
 
 #portafolio .proyecto{
 	text-align: center;
-	/*background: black;
-	color:white;*/
 }
 
 #portafolio .proyecto .titulo{
@@ -185,7 +179,6 @@ section ul li{
 	padding:6px;
 	transition: background-color .4s ease-in;
 	border: 1px solid #CCC;
-	/*border:5px solid #CCC;*/
 }
 #portafolio .proyecto .imagen img:hover{
 	background-color: #FFF;
@@ -275,4 +268,13 @@ form.contacto{
 
 .contacto-col2 a{
 	color:#333;
+}
+
+@media (max-width: 440px) { 
+	body{
+		padding-top:60px;
+	}
+	nav{
+		height:60px;
+	}
 }
