@@ -32,6 +32,18 @@ $(document).on('ready', function(){
     });
 /* ---- FIN Creador de barras de habilidad  ---- */
 
+    $("#portafolio .ver-mas").on("click", function(){
+        $section = $("#portafolio");
+
+        $('html, body').stop().animate({
+            scrollTop: $section.offset().top-30
+        }, 400);
+        $section.toggleClass("altura", 400, "easeOutSine");
+        if($section.hasClass("altura"))
+            $(this).find(".btn").text("Ver mas...");
+        else
+            $(this).find(".btn").text("Ver menos");
+    });
 
 /* ---- Atrapando el evento submit del formulario ---- */
     $("#contacto form").on("submit", function(){

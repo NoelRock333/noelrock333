@@ -20,7 +20,7 @@ body{
 
 nav{
 	height:30px;
-	background-color:#000;
+	background-color: rgba(0,0,0,0.7);
 	text-align: right;
 	position:fixed;
 	left:0;
@@ -156,6 +156,32 @@ section ul li{
 
 #servicios{
 	background:#F5F6F7;
+}
+
+#portafolio{
+	height: 300px;
+	position: relative;
+	-webkit-transition: all 1s; /* Safari */
+	transition: all 1s;
+}
+
+#portafolio.altura{
+	height: auto;
+}
+
+
+#portafolio .ver-mas{
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#portafolio .ver-mas .btn{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 #portafolio .proyecto{
