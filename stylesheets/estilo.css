@@ -11,7 +11,7 @@ html{
 	height:100%;
 }
 body{
-	background-color: #b3b3b3;
+	/*background-color: #b3b3b3;*/
 	height: 100%;
 	font-family: sans-serif, Arial, helvetica;
 	font-size: 16px;
@@ -76,13 +76,14 @@ a:focus {
 }
 
 #wallpaper{
-	background-image: url(../images/fondo1.jpg);
+	/*background-image: url(../images/fondo1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
+	background: transparent;
 	height: 400px;
 }
 
