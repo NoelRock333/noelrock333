@@ -195,6 +195,7 @@ section ul li{
 
 #portafolio .proyecto{
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #portafolio .proyecto .titulo{
@@ -210,9 +211,9 @@ section ul li{
 }
 
 #portafolio .proyecto .imagen img{
-	width:80%;
+	width: 90%;
 	background-color: #CCC;
-	padding:6px;
+	padding: 3px;
 	transition: background-color .4s ease-in;
 	border: 1px solid #CCC;
 }
@@ -224,6 +225,8 @@ section ul li{
 #portafolio .proyecto .descripcion{
 	/*width:80%;*/
 	/*margin: 10px auto 20px auto;*/
+	width: 90%;
+	margin: auto;
 	padding: 45px 5px 0 5px;
 	text-align: center;
 	background: #1ABC9C;
