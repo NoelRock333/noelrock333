@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<META name="Autor" content="www.acreativa.mx">
+	<META name="Contacto" content="Tel: 01 (312) 161 1689, Colima, Colima">
+	<META name="keywords" content="apie pelicula apielapelicula cine colima www.apie-lapelicula.com apie-lapelicula">
+	<META name="robots" content="FOLLOW,INDEX"> 
+	<META name="description" content="Sitio web oficial  A pie, la pelicula"> 
+
+	<title>A PIE A TALPA</title>
+	<link href="css/style-home.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="Video/colorbox.css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+	<script language="JavaScript" type="text/javascript">
+	function muestra(id){
+		var elDiv = document.getElementById(id); //se define la variable "elDiv" igual a nuestro div
+		if(elDiv.style.display=="block")
+			elDiv.style.display='none';//damos un atributo display:block que  el div	 
+		else
+			elDiv.style.display='block';//damos un atributo display:block que  el div	 
+	}
+	$(document).ready(function(){
+		$(".iframe").colorbox({iframe:true, width:"90%", height:"80%"});
+		$(".inline").colorbox({inline:true, width:"50%"});
+	});
+	</script>
+
+</head>
+<body>
+
+<div id="pagina">
+	<div id="logos">
+		<img src="img/logo.png" alt="logo a pie" id="logo" />
+	<div id="redessociales">
+	siguenos<br />
+	<a href="http://www.facebook.com/pages/A-Pie-La-Pel%C3%ADcula/170831763024582"><div id="facebook"></div></a>
+	<a href="https://twitter.com/#!/apielapelicula"><div id="twitter"></div></a>
+	</div>
+	</div>
+	<div id="menu" class="tipografia" >
+		<div id="fondomenu" >
+		<a href="index.html">HOME</a><br/>
+		<span class="despliega" onClick="muestra('sublist1');">ACERCA DE</span><br />
+		<ul id="sublist1" style="display:none;">
+			<li><a href="sinopsis.html">SINOPSIS</a></li>
+			<li><a href="#">CREW</a></li>
+			<li><span class="deshabilitado">CAST</span></li>
+		</ul>
+		<span class="deshabilitado">NOTICIAS</span><br />
+		<span class="deshabilitado">PRENSA</span><br/>
+		<span onClick="muestra('sublist2');" class="deshabilitado">PATROCINADORES</span><br/>
+		<ul id="sublist2"  style="display:none;">
+			<li><span class="deshabilitado">PARTNERS</span></li>
+			<li><span class="deshabilitado">MEDIA-PARTNERS</span></li>
+		</ul>
+		<a href="#">VIDEOS <span class="azul-indicador">NUEVO</span></a><br/>
+		<span class="despliega" onClick="muestra('sublist3');">GALERIA</span><br/>
+		<ul id="sublist3" style="display:none;">
+			<li><a href="#">NEDDY PALACIOS</a></li>
+			<li><a href="#">JAVIER FLORES</a></li>
+		</ul>
+		<a href="#">CONTACTO</a></div>
+	</div>
+
+	<div id="playvideo">
+	<a class='iframe' href="Video/video.html"><div id="play"></div></a>
+	<img src="img/frase.png" id="slogan" alt="Slogan" longdesc="A pie se hacen los caminos, a pata los tropiesos" />	
+	</div>
+	<div id="pie">&copy;Copyright A PIE 2012. All Righs Reserved</div>
+	
+</div>
+
+</body>
+</html>
