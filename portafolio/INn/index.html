@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+  <head>
+    <title>INn!</title>
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link href="stylesheet/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheet/colorbox.css" />
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+    <script src="javascripts/jquery-1.9.1.min.js"></script>
+    <script src="javascripts/applicaion.js"></script>
+    <script src="javascripts/stratus.js"></script>
+    <script src="javascripts/jquery.colorbox.js"></script>
+    <!--<script src="engine1/wowslider.js"></script>
+    <script src="engine1/script.js"></script>-->
+	<script>
+	$(document).ready(function(){
+		$(".iframe").colorbox({iframe:true, width:"480px", height:"207px"});
+		var brillo=false;
+		
+		var t=setInterval(function(){
+		if(brillo==false){
+			$(".pregunta").addClass("sombreado");
+			brillo=true;
+		}else{
+			$(".pregunta").removeClass("sombreado");
+			brillo=false;
+		}
+		},3000);
+	});
+	</script>
+
+    <div id="fb-root"></div>
+  </head>
+  <body>
+  	<header>
+  		<div class="topfix"></div>
+  		<div class="cabecera">
+  			<nav>
+	  			<ul class="menu">
+	  				<li><a href="#">HOME</a></li>
+	  				<li><a href="#">SERVICIOS</a></li>
+	  				<li><a href="#">IDENTIDAD</a></li>
+	  			</ul>
+	  			<br />
+	  			<ul class="menu">
+	  				<li><a href="#">PLANEA TU EVENTO</a></li>
+	  				<li><a href="#">INn! SHOP</a></li>
+	  				<li><a href="#">MEDIA</a></li>
+	  				<li><a href="#">INnbox</a></li>
+	  			</ul>
+	  		</nav>
+	  		<div class="pregunta">
+	  			Y<br />
+	  			TU<br />
+	  			<span class="txt-azul">ESTAS<br />
+	  			INn?</span>
+	  		</div>
+	  		<div class="redes-sociales">
+	  			<a href="https://www.facebook.com/INNPRODUCTIONS"><div class="red-s red-facebook"></div></a>
+	  			<a href="https://twitter.com/FollowINng"><div class="red-s red-twitter"></div></a>
+	  			<div class="red-s red-instagram"></div>
+	  		</div>
+	  		<a href="formulario.html" class="iframe"><div class="newsletter">JOIN NEWSLETTER. STAY ALWAYS <b>INn!</b>.</div></a>
+  		</div>
+  	</header>
+  	<div class="principal">
+		<div class="seccion-tabs">
+			<div class="tabs">
+				<div class="tab tab-others">HOTELES</div>
+				<div class="tab tab-others">VILLAS</div>
+				<div class="tab tab-others">RESTAURANTES</div>
+				<div class="tab tab-others">NIGHTLIFE</div>
+			</div>
+			<div class="tabs-content">
+				<div id="wowslider-container1">
+					<div class="ws_images">
+						<ul>
+							<li><img src="data1/images/banner1.jpg" alt="banner1" title="banner1" id="wows1_0"/></li>
+							<li><img src="data1/images/banner2.jpg" alt="Evento 2" title="Evento 2" id="wows1_1"/></li>
+							<li><img src="data1/images/banner3.jpg" alt="evento 3" title="evento 3" id="wows1_2"/></li>
+							<li><img src="data1/images/banner4.jpg" alt="Evento 4" title="Evento 4" id="wows1_3"/></li>
+						</ul>
+					</div>
+					<div class="ws_bullets">
+						<div>
+						<a href="#" title="banner1"><img src="data1/tooltips/banner1.jpg" alt="banner1"/>1</a>
+						<a href="#" title="Evento 2"><img src="data1/tooltips/banner2.jpg" alt="Evento 2"/>2</a>
+						<a href="#" title="evento 3"><img src="data1/tooltips/banner3.jpg" alt="evento 3"/>3</a>
+						<a href="#" title="Evento 4"><img src="data1/tooltips/banner4.jpg" alt="Evento 4"/>4</a>
+						</div>
+					</div>
+
+					<div class="ws_shadow"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="seccion-tres">
+			<div class="seccion-mitad textos">
+				<h3>QUIENES <span class="txt-naranja">SOMOS</span></h3>
+				<br />
+				<h5>SOMOS UN GRUPO ESPECIALIZADO EN LA INDUSTRIA DEL ENTRETENIMIENTO</h5>
+				<br />
+				<p><b>NUESTRA MISION:</b> Fijar la atencion de una audiencia a travez del entretenimiento.</p>
+				<p>Haciendo lo que nos apasiona hacer , brindando opciones de calidad que ayuden a hacer mejor la vida de las personas que nos rodean.</p>
+				<h5>NUESTRA VISION:</h5>
+				<h5>EL ENTRETENIMIENTO ES UNA  DIVERSION ,</h5>
+				<p>La diversion es el uso del tiempo de una manera planeada como terapia re energizante para nuestro cuerpo y mente, y mientras la necesidad de la diversion se incrementa dia a dia , nosotros tenemos la oportunidad de crear y desarrollar proyectos, actividades y servicios que ayuden a mantener un equilibrio en la vida , entre los deberes y las ocupaciones, contribuyendo a la sociedad con una mejor salud fisica y mental.</p>
+			</div>
+			<div class="g-fotos">
+				<h3>GALERIA DE <span class="txt-naranja">EVENTOS RECIENTES</span></h3>
+				<table>
+					<tr>
+						<td><a href="http://www.facebook.com/media/set/?set=a.404704959567312.82678.141923665845444&type=3"><img src="imgs/content/galeri1.png" /></a></td>
+						<td><a href="http://www.facebook.com/media/set/?set=a.382094258495049.78878.141923665845444&type=3"><img src="imgs/content/galeri2.png" /></a></td>
+						<td><a href="http://www.facebook.com/media/set/?set=a.278304898873986.60496.141923665845444&type=3"><img src="imgs/content/galeri3.png" /></a></td>
+					</tr>                                                  
+					<tr>                                                   
+						<td><a href="http://www.facebook.com/media/set/?set=a.278300612207748.60493.141923665845444&type=3"><img src="imgs/content/galeri4.png" /></a></td>
+						<td><a href="http://www.facebook.com/media/set/?set=a.274887309215745.60038.141923665845444&type=3"><img src="imgs/content/galeri5.png" /></a></td>
+						<td><a href="http://www.facebook.com/media/set/?set=a.344940902210385.72724.141923665845444&type=3"><img src="imgs/content/galeri6.png" /></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+  		<div class="seccion-uno">
+	  		<div class="redes-dos">
+	  			<a href="https://twitter.com/IFLHM"><div class="rd-twitter"></div></a>
+	  			<a href="http://www.facebook.com/IFLHM"><div class="rd-facebook"></div></a>
+	  		</div>
+	  		<div class="galeria">
+	  			<div class="js-multimedia-item video-reemplazar" align="center">
+	  				<img align="left" src="imgs/content/img-publi.png" />
+	  				<iframe width="592" height="333" src="http://www.youtube.com/embed/chif2St6eF0?list=PL2Aogu0WdB4YmbdWlELjuyureel3MazJ8" autoplay="0" frameborder="0" allowfullscreen></iframe>
+	  			</div>
+	  			<div class="js-multimedia-item" align="center">
+	  				<img align="left" src="imgs/content/img-publi.png" />
+	  				<img src="imgs/content/banner02.png" />
+	  			</div>
+	  			<div class="js-multimedia-item" align="center">
+	  				<img align="left" src="imgs/content/img-publi.png" />
+	  				<img src="imgs/content/banner03.png" />
+	  			</div>
+	  		</div>
+	  		<div class="glr-controles">
+	  		</div>
+  		</div>
+		<div class="seccion-dos">
+
+			<div class="fb-box">
+
+				<div class="fb-like-box" data-href="https://www.facebook.com/INNPRODUCTIONS?fref=ts" data-width="340" data-height="350" data-show-faces="true" data-stream="false" data-border-color="#e5e5e5" data-header="true"></div>
+
+				<!--<div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="335" data-height="324" data-show-faces="true" data-stream="false" data-header="true"></div>-->
+			</div>
+			<div class="twt-box">
+				<a class="twitter-timeline" href="https://twitter.com/FollowINng" data-widget-id="289158236978941952">Tweets por @FollowINng</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+
+		</div>
+		
+	
+  		<div class="clearfix"></div>
+	</div>
+	<footer>
+		<div class="seccion-foot">
+			<div class="txt-blanco seccion-objetivo">
+				<left><img src="imgs/footer/logo2.png" /><img src="imgs/footer/models1.png"/></left><br />
+				<p>Formar una alianza contigo no solo nos hace tenerun objetivo en comun , el contribuir a darle vida a tus ideas  y el seguir cosechando exitos es u reto que nos mantiene motivados constantemente.</p>
+				<p>Siempre daremos lo mejor de nosotros , simplemente porque tu preferencia nos mantiene vivos y porque siempre estaremos agradecidos de que nos des la oportunidad  de hacer lo que nos apasiona hacer.  <b>Y tu estas INn?</b></p>
+				<br />
+				<div class="redes-sociales-dos">
+					<a href="https://www.facebook.com/INNPRODUCTIONS"><div class="red-s red-facebook" style="margin-right:10px;"></div></a>
+					<a href="https://twitter.com/FollowINng"><div class="red-s red-twitter" style="margin-right:10px;"></div></a>
+		  			<div class="red-s red-instagram"></div>
+		  		</div>
+		  		<img src="imgs/footer/logoinnfooter.png"/>
+			</div>
+			<div class="seccion-ft-vertical">
+				<img src="imgs/footer/logo3.png" class="logo3"/>
+				<ul class="lista-ft txt-blanco">
+					<li>Our Team</li>
+					<li>About Us</li>
+					<li>Services</li>
+					<li>INn! Newsletter</li>
+					<li>INn! Blog</li>
+				</ul>
+			</div>
+			<div class="seccion-ft-vertical">
+				<ul class="lista-ft txt-blanco">
+					<li><b>VALORES</b></li>
+					<li>INnovaci&oacute;n</li>
+					<li>Creatividad</li>
+					<li>Originalidad</li>
+					<li>Diciplina</li>
+					<li>Honestidad</li>
+					<li>We are INn!</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div id="footer_container_2">
+		<div style="width:100%;background-color: #ccc; z-index:10000;">		
+			<div id="footer"  style="height:45px;">
+			</div>	
+		</div>
+	</div>
+  </body>
+</html>

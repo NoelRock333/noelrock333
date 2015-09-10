@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+img a{
+	border:none;
+}
+
+#centra-form{
+	background: #ffffff;
+	color: gray;
+	font-family: arial;
+	width: 430px;
+	height: 130px;
+}
