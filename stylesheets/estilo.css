@@ -101,7 +101,7 @@ a:focus {
 	transition: background .4s ease-in;
 }
 
-.barra:hover{
+.habilidad:hover .barra{
 	background:#B1D32B;
 	transition: background .4s ease-in;
 }
@@ -280,7 +280,7 @@ form.contacto{
 	background: #FFF;
 	border:none;
 	padding: 5px 5px 5px 20px;
-	width:100%;
+	width:95%;
 	margin-bottom: 10px;
 	box-sizing: content-box;
 }
@@ -302,11 +302,11 @@ form.contacto{
 	padding: 10px 20px;
 	text-transform: uppercase;
 	border-radius: 5px;
- 	-webkit-transition: all 1s; /* Safari */
-	transition: all 1s;
+ 	-webkit-transition: all .4s; /* Safari */
+	transition: all .4s;
 }
 .contacto .boton:hover{
-	background-color: #21AFA4;
+	border-color: #257061;
 }
 
 .separador {
