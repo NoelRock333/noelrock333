@@ -1,0 +1,214 @@
+gris_texto = #7A7A7C
+rosa_fucsia = #DB0064
+rosa_borde = #A0024C
+gris_fondo = #EFEFEF
+gris_borde = #DADCDB
+gris_input = #E5E7E6
+
+body
+	background red
+	height 1000px
+	.reds
+		background-repeat no-repeat
+		width 54px
+		height 54px
+		display inline-block
+		transition background-position 1s
+
+	header
+		background-repeat no-repeat
+		
+		figure
+			padding 15px 7px 20px 7px
+			img
+				width 100%
+		.icontel
+			float left
+
+		#txtAtClientes
+			width 184px
+			margin-left 65px
+			color gris_texto
+			.texto
+				font-size 15px
+			.telefono
+				font-size 27px
+				font-weight bold
+			span
+				display block
+		.boxPhone
+			margin-top 23px
+			margin-bottom 10px
+		.redesSoc1
+			padding-top 20px
+			.rdTw1
+				background-image url(../images/icon-face.png)
+				&:hover
+					background-position bottom
+			.rdFb1
+				background-image url(../images/icon-twitt.png)
+				&:hover
+					background-position bottom
+	
+	nav 
+		background rosa_fucsia
+		z-index 100
+		&.fixed 
+			position fixed
+		    top 0
+		    left 0
+		    width 100%
+		    
+		.menu
+			background rosa_fucsia
+			display inline-block
+			text-align center
+			& a
+				color white
+			& li
+				display inline-block
+				padding 10px
+				&.active
+					font-weight bold
+	section
+		color gris_texto
+		font-size 16px
+
+		h2
+			font-weight normal
+			font-size 24px
+		.bottom-dashed
+			border-bottom 1px dashed gris_texto
+		p
+			font-size 1em
+		#sect-QuienesSomos
+			padding 20px 20px 150px 20px
+			.col-centered
+				margin-bottom 40px
+			strong 
+				&.pull-left
+					font-size 1.2em
+			p
+				display block
+		#sect-Equipo
+			background gris_fondo
+			padding 20px
+			.perfil
+				text-align justify
+				padding-top 30px
+				box-sizing border-box
+				-moz-box-sizing border-box
+				strong
+					color rosa_fucsia
+					display block
+					font-size 1.2em
+			.integrante
+				background-image url(../images/flecha.png)
+				background-repeat no-repeat
+				background-position 172px top
+				margin-bottom 10px
+				overflow hidden
+			.col-centered
+				margin-bottom 40px
+		#sect-Galeria
+			ul
+				li
+					display inline-block
+					list-style none
+					padding 30px 20px
+					@media screen and (max-width: 600px)
+						padding 10px
+					a
+						color gris_texto
+						&.selected
+							font-weight bold
+			div.galeria
+				padding 0
+				img
+					width 100%
+			div.galeria-container
+				width 90%
+				margin auto
+				overflow hidden
+		#sect-Ubicacion
+			background gris_fondo
+
+		#sect-Contacto
+			.btn-enviar
+				background rosa_fucsia
+				color white
+				padding 10px
+				font-weight bold
+				border-left none
+				border-right none
+				border-top none
+				border-bottom solid 4px rosa_borde
+				border-radius 4px
+				min-width 140px
+			textarea
+			input[type=text]
+				background gris_input
+				font-size 16px
+				padding 8px 6px
+				border-radius 5px 
+				border-top solid 2px gris_borde
+				border-right none
+				border-bottom none
+				border-left solid 3px gris_borde
+				width 100%
+				margin-bottom 18px
+			textarea
+				height 230px
+			label
+				font-weight normal
+			table
+				width 100%
+				margin-left 30px
+				td
+					padding-right 20px
+				@media screen and (max-width: 600px)
+					margin 10px
+			.direccion
+				width 200px
+				margin-right 20px
+				h4 
+					font-weight bold
+					margin-bottom 30px
+				span
+				img
+					display inline-block
+					margin-bottom 5px
+				@media screen and (max-width: 400px)
+					width 100%
+					padding 10px
+					margin-right auto
+
+	footer
+		background rosa_fucsia
+		color white
+		text-align center
+		padding 24px 0
+		font-size 10px
+		.redesSoc2
+			padding-top 20px
+			.rdTw2
+				background-image url(../images/icon-face.png)
+				background-position bottom
+				&:hover
+					background-position top
+			.rdFb2
+				background-image url(../images/icon-twitt.png)
+				background-position bottom
+				&:hover
+					background-position top
+
+	.col-centered
+		float none
+		margin 0 auto 0 auto
+	
+	.txt-centered
+		text-align center
+	
+	.row
+		margin 0
+
